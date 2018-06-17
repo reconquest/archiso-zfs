@@ -51,7 +51,6 @@ rsync
 sdparm
 sg3_utils
 smartmontools
-speedtouch
 sudo
 tcpdump
 testdisk
@@ -64,3 +63,4 @@ wpa_actiond
 wvdial
 xl2tpd
 zd1211-firmware
+netctl
