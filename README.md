@@ -7,6 +7,14 @@
 
 # Usage
 
+Build image:
+
 ```
-./build.sh -v
+sudo ./build.sh -v
+```
+
+Record it on a device:
+
+```
+sudo dd if=out/archlinux-DATE-x86_64.iso of=/dev/sdevice status=progress
 ```
