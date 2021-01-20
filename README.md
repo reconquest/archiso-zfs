@@ -2,15 +2,12 @@
 
 * archzfs repo added
 * zfs-linux installed
-* fixed https://bugs.archlinux.org/task/58868
-* fixed https://bugs.archlinux.org/task/59137
 
-# Usage
 
 Build image:
 
 ```
-sudo ./build.sh -v
+mkarchiso -v -w work -o out .
 ```
 
 Record it on a device:
